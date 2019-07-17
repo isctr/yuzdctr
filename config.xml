@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <widget id="com.aocetinns.yuzdoktrs" version="1.0.0.0" android-versionCode="1" xxmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Yüz Doktoru</name>
-	<description>Kızn yüzündeki yara ve bereleri temizle</description>
+	<description>Kızın yüzündeki yara ve bereleri temizle</description>
 	<author email="genckafem@gmail.com">genckafem</author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
@@ -27,6 +27,9 @@
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
+	<plugin name="cordova-plugin-admob-free">
+		<variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544~3347511713" />
+	</plugin>
 
 
 	<engine name="android" />
