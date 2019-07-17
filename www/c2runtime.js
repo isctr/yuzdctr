@@ -35282,11 +35282,10 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.ResetGlobals,
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.system_object.prototype.acts.GoToLayout,
-	cr.plugins_.Function.prototype.cnds.OnFunction,
 	cr.plugins_.CordovaAdmobFree.prototype.acts.loadBanner,
+	cr.plugins_.Function.prototype.cnds.OnFunction,
 	cr.plugins_.CordovaAdmobFree.prototype.acts.loadInterstitial,
-	cr.plugins_.CordovaAdmobFree.prototype.acts.showBanner,
-	cr.plugins_.CordovaAdmobFree.prototype.acts.loadAndShowInterstitial,
+	cr.plugins_.Function.prototype.acts.CallFunction,
 	cr.plugins_.CordovaAdmobFree.prototype.acts.removeBanner,
-	cr.plugins_.Function.prototype.acts.CallFunction
+	cr.plugins_.CordovaAdmobFree.prototype.acts.loadAndShowInterstitial
 ];};
