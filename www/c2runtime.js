@@ -35084,5 +35084,5 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.plugins_.CordovaAdmobFree.prototype.acts.loadBanner,
 	cr.plugins_.CordovaAdmobFree.prototype.acts.removeBanner,
-	cr.plugins_.CordovaAdmobFree.prototype.acts.loadInterstitial
+	cr.plugins_.CordovaAdmobFree.prototype.acts.loadAndShowInterstitial
 ];};
