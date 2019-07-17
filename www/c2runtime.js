@@ -34949,10 +34949,12 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
 	cr.plugins_.Sprite.prototype.acts.SetSize,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
-	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
-	cr.plugins_.Browser.prototype.acts.GoToURLWindow,
 	cr.system_object.prototype.cnds.IsGroupActive,
 	cr.plugins_.Sprite.prototype.cnds.CompareOpacity,
 	cr.plugins_.Sprite.prototype.acts.SetAnim,
-	cr.system_object.prototype.acts.GoToLayout
+	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
+	cr.system_object.prototype.acts.ResetGlobals,
+	cr.system_object.prototype.acts.RestartLayout,
+	cr.system_object.prototype.acts.GoToLayout,
+	cr.plugins_.Browser.prototype.acts.GoToURLWindow
 ];};
